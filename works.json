@@ -1,0 +1,8 @@
+{
+    "port":5553,
+    "ssl":{
+        "open":true,
+        "cert":"/SD/Cours/service/SSL/one.pem",
+        "pem":"/SD/Cours/service/SSL/key.pem"
+    }
+}
