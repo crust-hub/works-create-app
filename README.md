@@ -1,8 +1,8 @@
 # works-create-app
 
-works项目工程模板
+works.js project template
 
-## 快速开始
+## quick start
 
 ```bash
 npm install
@@ -10,9 +10,22 @@ npm run build
 npm start
 ```
 
-## 关于works.js
+## config works.json
 
-基于javascript修饰器的控制层管理框架、快速构建后台应用简便业务开发
+```json
+{
+    "port":5554,//http listen port
+    "ssl":{
+        "open":false,//using https
+        "cert":"",//cert.pem path
+        "pem":""//key.pem path
+    }
+}
+```
 
-[works.js](https://github.com/gaowanlu/Cours/tree/main/works)
-[npm](https://www.npmjs.com/package/works.js)
+## works.js
+
+A framework for building lightweight nodejs services using javascript decorators, we provide solutions for decorator-based control layers
+
+* [github](https://github.com/gaowanlu/Cours/tree/main/works)
+* [npm](https://www.npmjs.com/package/works.js)
