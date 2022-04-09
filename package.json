@@ -19,6 +19,6 @@
     "babel-register": "^6.26.0"
   },
   "dependencies": {
-    "works.js": "^0.0.5"
+    "works.js": "^0.0.7"
   }
 }
