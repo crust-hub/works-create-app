@@ -14,11 +14,11 @@ npm start
 
 ```json
 {
-    "port":5554,//http listen port
+    "port":5554,
     "ssl":{
-        "open":false,//using https
-        "cert":"",//cert.pem path
-        "pem":""//key.pem path
+        "open":false,
+        "cert":"",
+        "pem":""
     }
 }
 ```
